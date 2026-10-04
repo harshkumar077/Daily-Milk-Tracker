@@ -2,13 +2,26 @@
 
 A simple mobile-first milk calendar for families. It works locally first and can connect to Supabase for authentication, family accounts, cloud sync, and row-level data isolation.
 
+## What it includes
+
+- One-tap daily milk recording with custom quantities and notes
+- Calendar editing, deletion, Undo, missing-day detection, and future-date protection
+- Family-specific milk prices with historical price preservation
+- Monthly and yearly summaries, costs, and a simple daily chart
+- Supabase login, family invite codes, RLS-protected cloud records, and offline cache
+- CSV export, JSON backup/restore, and installable PWA assets
+
 ## Run locally
 
 ```powershell
 python -m http.server 8080
 ```
 
-Open http://localhost:8080. Without Supabase configuration, data stays in this browser's local cache.
+Local website: [http://localhost:8080](http://localhost:8080/)
+
+Live website: [https://harshkumar077.github.io/Daily-Milk-Tracker/](https://harshkumar077.github.io/Daily-Milk-Tracker/)
+
+Without Supabase configuration, data stays in this browser's local cache.
 
 ## Supabase setup
 
@@ -30,3 +43,4 @@ The browser only uses the publishable key. Never put a service-role key in the f
 6. Verify signup, family setup/joining, daily entry, calendar, backup, and logout on the Pages URL.
 
 All asset paths are relative, so the app works under `/repository-name/` as well as a custom domain.
+

@@ -1,0 +1,7 @@
+# Local Supabase credentials
+supabase/config.js
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,12 @@
+{
+  "name": "Daily Milk Tracker",
+  "short_name": "Milk Tracker",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f5ef",
+  "theme_color": "#176b63",
+  "description": "A simple daily milk tracker for the family.",
+  "icons": [
+    { "src": "icon.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
